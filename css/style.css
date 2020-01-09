@@ -18,7 +18,9 @@
     height: 60px;
     color: #484e53;
 }
-
+h2{
+    font-size: 1.5rem;
+}
 /*BARRE & IMG*/
 .bar{
     display: flex;
@@ -46,7 +48,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 209px;
+    width: 240px;
     height: 100px;
     color: #484e53;
 }
@@ -64,6 +66,10 @@
     width: 410px;
     margin: 10px;
 }
+.card{
+    width: 90%;
+    height: 450px;
+}
 /*RESIZE IMG CARD*/
 .card-img-top{
     width: 18rem;
@@ -74,6 +80,12 @@
 }
 .card-text{
     color: #484e53;
+}
+.card-img-top{
+    width: auto;
+}
+#cardthree{
+    height: 60%;
 }
 /*COLOR BUTTON*/
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary:active:focus {
