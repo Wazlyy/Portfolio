@@ -1,0 +1,126 @@
+/*CONTAINER*/
+#container1{
+    display: flex;
+    flex-direction: column;
+}
+
+/*TITLE 1 & 2*/
+.title{
+    display: flex;
+    justify-content: flex-end;
+    width: 420px;
+    color: #484e53;
+}
+.secondtitle{
+    display: flex;
+    justify-content: flex-end;
+    width: 275px;
+    height: 60px;
+    color: #484e53;
+}
+
+/*BARRE & IMG*/
+.bar{
+    display: flex;
+    justify-items: center;
+    background-color: #8798ad;
+    width: 100%;
+    height: 3px;
+}
+.bigimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+
+}
+#firstimg{
+    display: flex;
+    align-self: center;
+    width: 90%;
+}
+#secondimg{
+    display: none;
+}
+/*TITLE 3*/
+.thirdtitle{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 209px;
+    height: 100px;
+    color: #484e53;
+}
+/* 3 BOX*/
+.threebox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 410px;
+    margin: 10px;
+}
+/*RESIZE IMG CARD*/
+.card-img-top{
+    width: 18rem;
+}
+/*COLOR FONT CARD*/
+.card-title{
+    color: #484e53;
+}
+.card-text{
+    color: #484e53;
+}
+/*COLOR BUTTON*/
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary:active:focus {
+    background-color: #484e53;
+    border-color: #484e53;
+}
+/*MEDIA*/
+@media screen and (max-width: 1024px){
+    .title{
+        width: 410px;
+    }
+    .secondtitle{
+        width: 265px;
+    }
+    .thirdtitle{
+        width: 193px;
+    }
+}
+@media screen and (max-width: 768px){
+    .title{
+        width: 390px;
+    }
+    .secondtitle{
+        width: 246px;
+    }
+    .thirdtitle{
+        width: 180px;
+    }
+}
+@media screen and (max-width: 425px) {
+    #firstimg{
+        display: none;
+    }
+    #secondimg{
+        display: initial;
+        width: 80%;
+    }
+    .title{
+        width: 330px;
+    }
+    .secondtitle{
+        width: 185px;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .thirdtitle{
+        width: 200px;
+    }
+}
